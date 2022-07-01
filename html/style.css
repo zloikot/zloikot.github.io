@@ -1,0 +1,73 @@
+:root {
+
+--bg-color:#0072bc;
+--main-font: 'Roboto Condensed', sans-serif;
+--main-fontsize: 1.1rem; 
+
+
+}
+
+
+body,html {
+
+padding: 0; margin: 0;
+font-family: var(--main-font);
+font-size: var(--main-fontsize);
+}
+
+
+header {
+
+    height: 100vh;
+    background-image: url("img/houses.jpg");
+    /* background: #ddd; */
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    /* background-size: 100% auto; */
+}
+
+.menu ul {
+
+position: relative;
+background: green;
+}
+
+.ikons {
+
+
+}
+
+
+.call {  
+    
+    margin: 0;
+    padding: 10px;
+    background: var(--bg-color);
+    color: #fff;
+    height:15vh;
+    max-height:55px;
+    display: block;
+    position: relative;
+    }
+
+
+/* .phone::before
+
+    {
+
+        content: url("img/mail.svg ");
+
+
+    } */
+
+
+.menu ul li {
+
+display: inline-block;
+
+
+position: relative;
+
+}
+
