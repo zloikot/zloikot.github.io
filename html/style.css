@@ -1,9 +1,18 @@
 :root {
 
 --bg-color:#0072bc;
+--orange-color: #f7941d;
 --main-font: 'Roboto Condensed', sans-serif;
---main-fontsize: 1.1rem; 
+--main-fontsize: 1.0rem;
 
+
+}
+
+
+a {
+
+color: #fff;
+text-decoration: none;
 
 }
 
@@ -13,6 +22,7 @@ body,html {
 padding: 0; margin: 0;
 font-family: var(--main-font);
 font-size: var(--main-fontsize);
+
 }
 
 
@@ -35,39 +45,71 @@ background: green;
 
 .ikons {
 
+display: inline-block;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.callrequest {
+display: inline-block;
+background: var(--orange-color);
+height: 55px;
+width: 30%;
+padding-top: calc(55px - 2.5em);
+margin-top:0;
+margin-left: 30px;
+text-align: center;
+
 
 }
+
 
 
 .call {  
     
     margin: 0;
-    padding: 10px;
+    padding: 0 0 0 10px;
     background: var(--bg-color);
     color: #fff;
-    height:15vh;
+    /* height:20vh; */
     max-height:55px;
     display: block;
     position: relative;
     }
 
 
-/* .phone::before
+    .callrequest a {
 
-    {
+        padding-top: calc(100% - 55px);
 
-        content: url("img/mail.svg ");
-
-
-    } */
+    }
 
 
-.menu ul li {
+     .first {
 
-display: inline-block;
+margin-top: 25px;
+        
+    }
 
+    .first a {
+
+        font-size: 1.25em;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    .navbar-toggler {
+
+        margin-top: -45px ;
+
+    }
+
+.logo-bobr {
 
 position: relative;
+margin-left: calc(50vw - 206px);
+top: 50px; 
 
 }
-
+  

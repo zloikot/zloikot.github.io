@@ -1,0 +1,48 @@
+body {
+
+background: purple;
+
+}
+
+h2 {
+
+font-size: 5em;
+
+}
+
+.box1 {
+
+background: red;
+height: 300px;
+width: 300px;
+}
+
+.box2 {
+
+background:green;
+height: 100px;
+width: 100px;
+
+}
+
+.box1, .box2 {
+
+display: inline-block;
+
+}
+
+.box_outer {
+
+/* display: flex; */
+background: orange;
+width: 800px;
+height: 600px;
+}
+
+.box_inner {
+    background: green;
+    /* display: flexbox; */
+    /* width:200px; */
+    height: 100px;
+}
+
