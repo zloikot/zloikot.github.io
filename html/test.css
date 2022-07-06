@@ -35,7 +35,7 @@ display: inline-block;
 
 /* display: flex; */
 background: orange;
-width: 800px;
+width: 100%;
 height: 600px;
 }
 
@@ -46,3 +46,45 @@ height: 600px;
     height: 100px;
 }
 
+.box_inner2 {
+
+background: pink;
+height: 150px; {}
+}
+
+x1 {
+
+    background: lightgreen;
+}
+
+x2 {
+
+background: purple;
+
+}
+.box3 {
+
+    background: cyan;
+    height: 10%;
+}
+
+
+.q123 {
+
+background: #dddfff;
+height: 900px;
+
+}
+
+
+.t1 {
+
+    background: red;
+
+}
+
+.t2 {
+
+
+    background: #ddd123;
+}
