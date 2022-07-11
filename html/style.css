@@ -391,8 +391,73 @@ height: 20px;
 
 .our-partners {
 
-background: green;
+/* background: green; */
 min-height: 100px;
+margin-top: 20px;
 
 }
 
+.part-logo {
+display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    /* background: cyan; */
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+}
+
+ 
+.part-logo img {
+/* display: flex;
+
+min-height: 100%; */
+}
+
+
+
+.footer {
+
+background: #0072bc;
+margin-top: 40px;
+padding: 10px;
+font-size: 1.1em;
+text-align: center;
+
+}
+
+footer ul li.nav-item {
+
+display: inline-block;
+padding: 4px;
+margin: 0 10px;
+color: #fff;
+font-weight: normal;
+font-family: var(--main-font);
+
+}
+
+.about-us li{
+
+    color:#fff;
+    list-style-type: none;
+    text-align: left;
+
+}
+
+
+footer ul li.nav-item a {
+
+
+color: #fff;
+padding: 3px;
+}
+
+
+
+footer ul li.nav-item a:hover {
+padding: 0 3px;
+color: #0072bc;
+background: #fff;
+
+}
